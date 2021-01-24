@@ -1,0 +1,25 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=4
+
+_global_script_classes=[ {
+"base": "Camera",
+"class": "FreelookCamera",
+"language": "GDScript",
+"path": "res://asset_library/zacksly_dot_matrix/scripts/free_cam.gd"
+} ]
+_global_script_class_icons={
+"FreelookCamera": ""
+}
+
+[application]
+
+config/name="Half-Tone Comic Shader"
+run/main_scene="res://asset_library/zacksly_dot_matrix/scenes/draw_test.tscn"
+config/icon="res://icon.png"
